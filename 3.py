@@ -2,6 +2,9 @@
 #Print numbers from 1 - 100, multiples of 3 print Fizz
 #multipes of 5 print Buzz, multiples pf 3 & 5 print FizzBuzz
 
+
+#Adapted from https://www.python-course.eu/for_loop.php
+# and https://www.tutorialspoint.com/python/python_if_else.htm
 count = 1
 
 #for loop with conditions to print Fizz Buzz
