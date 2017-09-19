@@ -9,5 +9,11 @@ for i in range(1,101):
     if(count % 5) == 0 and (count % 3) == 0:
         print("FizzBuzz")
         count += i
+    if(count % 5) == 0:
+        print("Buzz")
+        count += i  
+    if(count % 3) == 0:
+        print("Fizz")
+        count += i   
     count = i
     print(count)
