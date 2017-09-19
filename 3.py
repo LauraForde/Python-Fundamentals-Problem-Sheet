@@ -6,5 +6,8 @@ count = 0
 
 #for loop printing 1 - 100, without FizzBuzz
 for i in range(1,101):
+    if(count % 5) == 0 and (count % 3) == 0:
+        print("FizzBuzz")
+        count += i
     count = i
     print(count)
