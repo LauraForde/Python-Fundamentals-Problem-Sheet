@@ -8,12 +8,14 @@ count = 0
 for i in range(1,101):
     if(count % 5) == 0 and (count % 3) == 0:
         print("FizzBuzz")
-        count += i
+        count = count + 1
     if(count % 5) == 0:
         print("Buzz")
-        count += i  
+        count = count + 1
     if(count % 3) == 0:
         print("Fizz")
-        count += i   
-    count = i
-    print(count)
+        count = count + 1
+    else:
+        print(count)
+        count = count + 1
+        
