@@ -4,6 +4,7 @@
 
 count = 0
 
+#for loop printing 1 - 100, without FizzBuzz
 for i in range(1,101):
-    count = count = i
+    count = i
     print(count)
