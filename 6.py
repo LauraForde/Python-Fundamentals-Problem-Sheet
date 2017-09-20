@@ -1,0 +1,1 @@
+#Exercise 6, Print smallest and largest element in list
