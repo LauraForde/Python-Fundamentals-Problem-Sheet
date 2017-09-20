@@ -1,15 +1,28 @@
 #Exercise 5, Guessing Game
+#Adapted from https://www.tutorialspoint.com/python/python_while_loop.htm
+#and https://wiki.python.org/moin/WhileLoop
 
 number = 5
-
 guess = int(input("Guess the number? "))
+count = 0
 
-if guess == number:
+'''if guess == number:
     print("Correct!!")
 elif guess < number:
     print("Your guess is too low.")
 elif guess > number:
-    print("Your guess is too high")
+    print("Your guess is too high.")
 else:
-    print("Bad guess")
+    print("Bad guess")'''
 
+while(guess != number):
+    
+    if guess < number:
+        print("Your guess is too low.")
+        count += 1
+    elif guess > number:
+        print("Your guess is too high.")
+        count += 1
+    guess = int(input("Guess the number? "))
+
+print("Correct! It took ", count, " guesses." )
