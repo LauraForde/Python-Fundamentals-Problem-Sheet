@@ -9,4 +9,4 @@ for i in range(manyNum):
     numEntered = int(input("Enter Number: "))
     getList.append(numEntered)
 
-print("The max number is:", max(getList), "\nThe min number is:",min(getList))
+print("The largest number is:", max(getList), "\nThe smallest number is:",min(getList))
