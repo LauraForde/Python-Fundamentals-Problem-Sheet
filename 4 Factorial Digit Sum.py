@@ -6,6 +6,7 @@ from math import factorial
 number = int(input("What number do you want the factorial of? "))
 fact = 1
 digitSum = 0
+digitSum100 = 0
 
 #Saying factorial does not exist for negative numbers
 if number < 0:
@@ -17,12 +18,13 @@ elif number == 0:
 else:
     for i in range(1,number + 1):
         fact = fact*i
-    print("Factorial is: ", fact)  
+        digitSum+=int(i)
+    print("Factorial is:", fact, "and the sum of the digits is:", digitSum)  
 
 #Getting the sum of all the digits in 100!
 fac = factorial(100)
 fac =str(fac)
 
 for i in fac:
-    digitSum+=int(i)
-print("The sum of the digits in 100! is:",digitSum)
+    digitSum100+=int(i)
+print("The sum of the digits in 100! is:",digitSum100)
