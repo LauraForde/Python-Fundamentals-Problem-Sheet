@@ -27,6 +27,7 @@ This is a function that tests to see if a string is a palindrome or not, meaning
 This script asks the user how many numbers they will enter for list one and when they enter all the numbers it then does the same for list two. The lists are then merged together, sorted and then printed to the console.
 
 **9. Newton's Method for Square Roots**
+Calculate the square root of a number using Newton's Method.
 
 **10. Reverse String**
 A function that takes in a string and then prints said string back to the console but in reverse.
